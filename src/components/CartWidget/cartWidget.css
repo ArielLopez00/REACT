@@ -1,0 +1,15 @@
+.carrito{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+button{
+    border-style: none;
+    background-color: white;
+}
+.item-count{
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.685);
+    border-radius: 15px
+}
