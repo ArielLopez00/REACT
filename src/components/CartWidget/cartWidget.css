@@ -4,10 +4,11 @@
     height: 40px;
 }
 
-button{
+.buttonCart{
     border-style: none;
     background-color: white;
 }
+
 .item-count{
     padding: 5px;
     background-color: rgba(0, 0, 255, 0.685);

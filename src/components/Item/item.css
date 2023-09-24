@@ -1,0 +1,32 @@
+.tarjetaProductos {
+    max-width: 300px;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(151, 151, 172);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.589);
+    transition: 200ms; 
+}
+
+.tarjetaProductos:hover{
+    translate: 0 -10px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.596);
+}
+
+.tarjetaProductos img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+
+
+.nameProduct {
+    padding: 20px;
+}
+
+.priceProduct {
+    padding-top: 20px;
+}
+
+.stockProduct{
+    padding: 15px;
+}

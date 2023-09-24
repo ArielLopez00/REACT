@@ -6,7 +6,7 @@ const CartWidget = () => {
     const itemCount = 0;
     return (
         <div>
-            <button>
+            <button className='buttonCart'>
                 <img src={carrito} alt="carrito" className='carrito'/>
             </button>
             <span className="item-count">{itemCount}</span>

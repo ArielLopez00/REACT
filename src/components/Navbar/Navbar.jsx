@@ -1,15 +1,16 @@
 import "./styles.css";
 import CartWidget from "../CartWidget/CartWidget";
 import logo from "../../assets/logo.png";
+import { Link} from "react-router-dom";
 
 const Navbar = () => {
     return (
         <div className="container">
-                <a href="#"><img className="logo" src={logo} alt="logo" /></a>
+                <Link to='/'><img className="logo" src={logo} alt="logo" /></Link>
             <nav className="navbar">
-                <button className="boton">Jerseys</button>
-                <button className="boton">Shorts</button>
-                <button className="boton">Hoodies</button>
+                <Link to='/category/Jerseys'><button className="boton">Jerseys</button></Link>
+                <Link to='/category/Shorts'><button className="boton">Shorts</button></Link>
+                <Link to='/category/Hoodies'><button className="boton">Hoodies</button></Link>
             </nav>
                 <div className="cart">
                     <CartWidget />
