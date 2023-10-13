@@ -12,9 +12,10 @@ const Navbar = () => {
                 <Link to='/category/Shorts'><button className="boton">Shorts</button></Link>
                 <Link to='/category/Hoodies'><button className="boton">Hoodies</button></Link>
             </nav>
-                <div className="cart">
-                    <CartWidget />
-                </div>
+                    <div className="cart">
+                            <CartWidget/>
+                    </div>
+                
         </div>
 );
 };

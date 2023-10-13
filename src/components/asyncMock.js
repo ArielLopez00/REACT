@@ -5,7 +5,7 @@ export const productos = [
     category: 'Jerseys',
     img: 'https://fanatics.frgimages.com/los-angeles-lakers/mens-nike-lebron-james-gold-los-angeles-lakers-2020/21-swingman-jersey-icon-edition_pi3774000_altimages_ff_3774124-8dda7d765787e82d6c61alt1_full.jpg?_hv=2&w=900',
     precio: 150,
-    stock: 1,
+    stock: 12,
     description: "Men's Los Angeles Lakers LeBron James",
   },
   {
@@ -78,7 +78,7 @@ export const productos = [
     img: 'https://fanatics.frgimages.com/los-angeles-lakers/mens-jordan-brand-purple-2019/20-los-angeles-lakers-icon-edition-swingman-shorts_pi3763000_altimages_ff_3763986-d7b4d2d76491268bbf86alt1_full.jpg?_hv=2&w=900',
     precio: 80,
     stock: 12,
-    description: "Men's Los Angeles Lakers Jordan Brand Purple 2019/20 Icon Edition Swingman Shorts's Golden State Warriors Stephen Curry",
+    description: "Men's Los Angeles Lakers Jordan Brand Purple 2019/20 Icon Edition",
   },
   {
     id: 10,
@@ -118,11 +118,12 @@ export const productos = [
   },
   {
     id: 14,
+    
     nombre: "Celtics Hoodie",
     category: 'Hoodies',
     img: 'https://fanatics.frgimages.com/boston-celtics/mens-jordan-brand-black-boston-celtics-courtside-statement-edition-pullover-hoodie_ss5_p-5267907+pv-1+u-bxtlf9ogyv97bvfovwpx+v-s3t1fgiwnjybltiahpxy.jpg?_hv=2&w=900',
     precio: 95,
-    stock: 4,
+    stock: 7,
     description: "Men's Boston Celtics Jordan Brand Black Courtside Statement Edition Pullover Hoodie",
   },
   {

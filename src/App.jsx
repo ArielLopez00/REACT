@@ -1,5 +1,6 @@
 import './App.css'
 import Navigation from './routes/Navigation'
+import { CartProvider } from './context/CartContext';
 // import Navbar from './components/Navbar/Navbar'
 // import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
@@ -10,7 +11,12 @@ import Navigation from './routes/Navigation'
 
 const App = () => {
   return (
-      <Navigation /> 
+    <div>
+      <CartProvider>
+        <Navigation />
+      </CartProvider>
+    </div>
+      
   )
 };
 

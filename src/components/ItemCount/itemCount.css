@@ -1,0 +1,14 @@
+.itemCount {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonCount {
+    padding: 6px;
+}
+
+.botonAgregar {
+    margin-top: 10px;
+}
